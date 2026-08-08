@@ -56,15 +56,10 @@
       width: 160px;
       height: 160px;
       border-radius: 50%;
-      display: grid;
-      place-items: center;
-      background: linear-gradient(135deg, #dbe4ef, #ece3df);
+      display: block;
+      object-fit: cover;
+      object-position: center;
       border: 1px solid rgba(31, 41, 55, 0.12);
-      color: var(--accent);
-      font-size: 54px;
-      font-weight: 800;
-      letter-spacing: 0.02em;
-      user-select: none;
       box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
     }
 
@@ -221,7 +216,7 @@
 <body>
   <main class="wrap">
     <header class="hero">
-      <div class="avatar" aria-hidden="true">LH</div>
+      <img class="avatar" src="profilepic.jpg" alt="Portrait of Luchi He">
       <div>
         <h1>Luchi He</h1>
         <div class="title">Assistant Professor, Department of Management, University of Macau</div>
@@ -235,7 +230,7 @@
         </div>
 
         <div class="actions">
-          <a class="btn primary" href="cv/Luchi_He_CV.pdf" target="_blank" rel="noopener">CV</a>
+          <a class="btn primary" href="Luchi_s_CV.pdf" target="_blank" rel="noopener">CV</a>
           <a class="btn" href="mailto:luchihe@um.edu.mo">Email</a>
           <a class="btn" href="#about">Research</a>
         </div>
